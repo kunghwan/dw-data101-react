@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Gallery.css";
-
 import {IoChevronBackOutline,IoChevronForwardOutline} from 'react-icons/io5'
+
 
 const Gallery = () => {
   return (
