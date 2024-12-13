@@ -1,20 +1,38 @@
 footer{
     border: 1px solid;
+    row-gap: 30px;
+    padding: 20px;
 }
+
 footer button{
     background: none;
     padding: 10px 0;
+    
+    font-size: small;
+}
+footer button:hover{
     text-decoration: underline;
 }
-footer span{
-    text-decoration: underline;
+footer .wrap{
+    flex-direction: row;
 }
 footer .bt1{
     border: 1px solid blue;
-    border-radius: 5px;
-    padding: 10px;
+    background: var(--blue2);
+    border-radius: 30px;
+    padding: 5px;
     width: 120px;
     margin-left: 10px;
     height: 30px;
     text-decoration: none;
+}
+footer .last{
+    row-gap: 10px;
+}
+footer .last_l{
+
+row-gap: 10px;
+}
+footer .last p:nth-child(2){
+    font-size: 10px;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { SiNetflix } from "react-icons/si";
-import { CiGlobe } from "react-icons/ci";
+import LangButton from './LangButton';
 
 const Header = () => {
   return (
@@ -10,8 +10,7 @@ const Header = () => {
      <SiNetflix/>
      </button>
      <ul>
-        <li><button className='bt1'><CiGlobe />
-        언어</button></li>
+        <li> <LangButton /></li>
         <li><button className='bt2'>로그인</button></li>
      </ul>
     </header>

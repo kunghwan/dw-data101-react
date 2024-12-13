@@ -141,10 +141,21 @@
 button, a{
   cursor: pointer;
   border: none;
-  color: inherit;
+  color: inherit; 
+  /* 상속  */
   text-decoration: none;
+  background-color: transparent;
 }
-
+button:hover, a:hover{
+  opacity: 0.8;
+}
+button:active, a:active{
+  opacity: 0.5;
+}
+div, section, article,  a, header, footer{
+  display: flex;
+  flex-direction: column;
+}
 body {
   background: var(--gray9);
   color: var(--gray0);

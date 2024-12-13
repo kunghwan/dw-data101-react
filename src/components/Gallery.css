@@ -1,0 +1,39 @@
+.gal{
+    border: 2px solid ;
+    width: 500px; 
+    margin: 0 auto;
+}
+.gal img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.gal .wrap{
+    
+    position: relative;
+}
+.gal button{
+    position: absolute;
+    border: 1px solid var(--gray6);
+    background-color: var(--gray8);
+    border-radius: 100px;
+    padding: 30px 0px;
+    top: 50%;
+    
+    
+}
+.gal button :hover{
+    opacity: 1;
+    background-color: var(--gray7);
+}
+.gal button.l{
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.gal button.r{
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+
+/* const img = 주소 효율성  object-fit:cover 찌그러진거 펴줌*/

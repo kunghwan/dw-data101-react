@@ -1,0 +1,6 @@
+button.bt1{
+    background: yellowgreen;
+    border: 1px solid var(--gray6);
+    color: white;
+    border-radius: 8px;
+}  
