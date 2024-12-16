@@ -1,0 +1,30 @@
+#header{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header .net{
+ padding: 20px 10px;
+ font-size: 30px;
+ color: red;
+ cursor: pointer;
+}
+#header ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    column-gap: 10px;
+}    
+#header .language{
+    border-radius: 20px;
+    border: 1px solid whitesmoke; 
+    padding: 10px 20px;
+}
+    
+#header .login{
+    border: 1px solid;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+}

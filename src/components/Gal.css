@@ -1,0 +1,41 @@
+#gal {
+    padding: 20px;
+}
+#gal .wrap{
+    border: 1px solid;
+    position: relative; 
+}
+img.ocean{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius:10px ;
+    border: 1px solid white;
+}
+
+#gal .wrap button.chev{
+    position: absolute;
+    padding: 20px 5px;
+    background-color: var(--gray7);
+    border-radius: 100px;
+    border: 1px solid var(--gray5);
+    top: 50%;
+}
+#gal .wrap button.chev.l{
+   left: 0;
+   transform: translate(-50%, -50%);
+}
+#gal .wrap button.chev.r{
+    right: 0;
+    transform: translate(50%, -50%);
+
+}
+#gal .wrap .txts{
+    border: 1px solid;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
