@@ -26,6 +26,8 @@ import React from 'react'
 import Gal from './components/Gal'
 import SampleHeader from "./layout/SampleHeader"
 import SampleGal from './components/SampleGal'
+import NInput from './components/NInput'
+import SInput from './components/SInput'
 
 
 const App = () => {
@@ -34,6 +36,8 @@ const App = () => {
     <SampleHeader/>
       <main>
       <SampleGal/>
+      <NInput/>
+      <SInput/>
       </main>
     </>
   )
