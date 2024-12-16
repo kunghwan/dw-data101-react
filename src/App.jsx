@@ -28,6 +28,8 @@ import SampleHeader from "./layout/SampleHeader"
 import SampleGal from './components/SampleGal'
 import NInput from './components/NInput'
 import { GiCardKingHearts } from 'react-icons/gi'
+import MQ from './ex/MQ'
+import Grid from './ex/Grid'
 
 // import SInput from './components/SInput'
 {/* <SInput/> */}
@@ -49,8 +51,9 @@ const App = () => {
       <main>
       <SampleGal/>
       <NInput/>
-      </main> */}
-      <h1>{name}</h1>
+      </main>  */}
+       {/* <MQ /> */}
+       <Grid />
     </>
   )
 }
