@@ -27,18 +27,30 @@ import Gal from './components/Gal'
 import SampleHeader from "./layout/SampleHeader"
 import SampleGal from './components/SampleGal'
 import NInput from './components/NInput'
-import SInput from './components/SInput'
+import { GiCardKingHearts } from 'react-icons/gi'
+
+// import SInput from './components/SInput'
+{/* <SInput/> */}
 
 
 const App = () => {
+// 변수 선언 너는 너야.
+//   let 변경 가능
+// const 변함없이 계속해서 끝까지 똑같은
+ const name = 'ykh'
+  // a+b를 계산해줘 공식
+// 함수
+
+
+
   return (
     <>
-    <SampleHeader/>
+    {/* <SampleHeader/>
       <main>
       <SampleGal/>
       <NInput/>
-      <SInput/>
-      </main>
+      </main> */}
+      <h1>{name}</h1>
     </>
   )
 }
