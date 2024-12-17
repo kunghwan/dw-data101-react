@@ -1,0 +1,9 @@
+.oi{
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+}
+.Return{
+    padding: 10px;
+    row-gap: 10px;
+}
