@@ -50,10 +50,12 @@ const FAQ = () => {
          <li>
                         <button key={i}>{q.q}<span>+</span></button>
                    
-                    <div> 
-                        <p>{q.a}</p>
-                        <a href="">rrt</a>
-                    </div>
+                        {q.a && (
+                <div>
+                  <p>{q.a}</p>
+                  <a href="">ㄱㄱㅅ</a>
+                </div>
+              )}
                     
          </li>
                     
