@@ -5,7 +5,8 @@ import Gallery from "./components2/Gallery"
 import Detail from "./components2/Detail"
 import Input from "./components2/Input"
 import Reason from "./components/Reason";
-
+import FAQ from "./components/FAQ";
+import LB from "./components/LB";
 
 const App = () => {
 
@@ -19,7 +20,8 @@ const App = () => {
       <Poster/>
       <Poster/>
       <Reason/>
-     
+      <FAQ/>
+      <LB/>
     </div>
   );
 }
