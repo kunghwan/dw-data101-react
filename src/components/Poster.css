@@ -1,0 +1,67 @@
+.poster{
+    
+    padding: 0 20px;
+    row-gap: 10px;
+}
+.poster h3{
+    margin-top: 10px;
+}
+.poster ul{
+    padding: 5px;
+    display: flex;
+    column-gap: 10px;
+    
+}
+.poster li{
+    border: 1px solid;
+    width: 180px;
+    height: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s;
+}
+.poster li:hover{
+    transform: scale(1.05);
+}
+.poster img{
+    height: 100%;
+    object-fit: cover;
+}
+.poster li p{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+    
+
+/* div.Wrap{
+     border: 3px solid; 
+    margin-top: 10px;
+    margin: 0 auto;
+
+}
+div.contents{
+    padding: 10px;
+    font-size: 25px;
+}
+
+ul{
+    display: flex;
+    column-gap: 10px;
+    
+}
+ul img{
+    border-radius: 20px;
+     border: 1px solid var(--gray8); 
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+ul img:hover{
+    transform: scale(1.03);
+}     
+   */

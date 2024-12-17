@@ -1,19 +1,23 @@
-import React from 'react'
+import React from "react";
 import "./Gallery.css"
 
-const Gallery = () => {
+const Gal = () => {
   return (
-    <div>
-      <img src="{img}"/>
-<div>
-          <h1>파일럿</h1>
-          <p>Lorem ipsum dolor sit amet</p>
-</div>
-
+    <div id="gal">
+      <div className="wrap">
+        <img src={img} />
+        <button className="left">{"<"}</button>
+        <button className="right">{">"}</button>
+        <div className="txts">
+          <h1>트렁크</h1>
+          <p>2024</p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gal;
 
-const img = "https://picsum.photos/500/100"
+const img =
+  "https://cdn.pixabay.com/photo/2018/08/25/14/48/indian-ocean-3630244_1280.jpg";
